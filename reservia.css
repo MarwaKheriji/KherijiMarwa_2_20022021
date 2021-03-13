@@ -1,0 +1,657 @@
+
+#MonSite
+{
+	margin-left: 10px;
+}
+
+/*  Police des textes*/
+
+
+@font-face
+{
+   font-family: 'Raleway';
+    src: 
+         url('Raleway-Thin.ttf') format('truetype'),
+        
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face
+{
+   font-family: 'RalewayBold';
+    src: 
+         url('Raleway-Bold.ttf') format('truetype'),
+        
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body
+{
+		font-family: Raleway;
+}
+
+			/*HeaderNav*/
+
+
+#HeaderNav
+{
+    height: 100px;
+    width: 1340px;
+
+}
+
+#HeaderNav .logo
+{
+	float: left;
+	left: 0;
+	width: 200px;
+	height: 80px;
+}
+
+#HeaderNav nav ul
+{
+    list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	float: right;
+	right: 0;
+	width: 700px;
+	height: 100px;
+
+}
+
+#HeaderNav .activites
+{
+	color: black;
+}
+nav li
+{
+	 margin-right: 100px;
+}
+
+nav a
+{
+
+	text-decoration: none; 
+	color: #0065FC;
+}
+
+.hebergement
+{
+	border-top: solid;
+	border-top-color: #0065FC;
+	padding-top: 10px;
+}
+
+.inscrire
+{
+	font-weight: bold;
+	
+}
+
+
+
+			/* FIN HeaderNav*/
+
+			/*phrase*/
+
+#phrase
+{
+	height: 80px;
+}
+#phrase h2
+{
+	font-size: 1em;
+}
+
+#phrase p
+{
+	font-size: 0.9em;
+}
+					/*FIN phrase*/	
+
+
+
+					/*RECHERCHE*/
+#zoneRecherche
+{
+  display:flex;
+  justify-content:flex-start;
+  height: 40px;
+  width: 100px;
+
+
+}
+
+#zoneRecherche i
+{
+	border: 1px #F2F2F2 solid;
+    border-top-left-radius: 9px;
+   border-bottom-left-radius: 9px;
+   background-color:#F2F2F2;
+   padding-right: 30px;
+   text-align: center;
+   padding: 10px;
+
+}
+#zoneRecherche input:nth-child(2)
+{
+  border: 1px #F2F2F2 solid;
+  font-weight: bold;
+}
+
+
+#zoneRecherche input:nth-child(3)
+{
+  border: 1px #F2F2F2 solid;
+  color:white;
+  background-color: #0065FC;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  font-weight: bold;
+}
+
+		/*FIN RECHERCHE*/
+
+			/*FILTRE*/
+
+#filtre
+{ 
+	display:flex;
+	text-align: center;
+ 	 font-weight:bold;
+ 	 align-items: center;
+ 	 height: 80px;
+
+}
+
+#filtre p
+{
+	margin-right: 30px;
+}
+#filtre .fas
+{
+	background-color: #DEEBFF;
+padding:10px;
+    border-radius: 50%;
+  	border:1px solid #F2F2F2 ; 
+  color: #0065FC;
+}
+
+#filtre .money
+{
+	border-radius: 50px;
+	border:2px solid #F2F2F2 ;
+    font-weight:bold;
+    margin-right: 30px;
+}
+
+#filtre .romance
+{
+	border-radius: 50px;
+	border:2px solid #F2F2F2 ;
+    font-weight:bold;
+    margin-right: 30px;
+}
+
+#filtre .child
+{
+	border-radius: 50px;
+	border:2px solid #F2F2F2 ;
+    font-weight:bold;
+    margin-right: 30px;
+}
+
+#filtre .dog
+{
+	border-radius: 50px;
+	border:2px solid #F2F2F2 ;
+    font-weight:bold;
+    margin-right: 30px;
+}
+
+	/*FIN FILTRE*/
+
+
+
+		/*info*/
+
+#info
+{
+	height: 80px;
+	font-size: 0.8em;
+
+}		
+.fa-info
+{
+
+padding:10px;
+    border-radius: 50%;
+  	border:3px solid #F2F2F2 ; 
+  color: #0065FC;
+}
+	/*FIN INFO*/
+
+		/*HEBERGEMENT MARSEILLE*/
+
+
+
+#HebergementMarseille
+{
+	background-color: #F2F2F2 ;	
+	margin-left: 5px;
+	margin-right: 30px;	
+	padding: 30px;
+	padding-right: 0px;
+	border-radius: 10px;
+	width: 60%;
+	height: 580px;
+	float: left;
+}
+
+#HousingMarseille
+{
+	display: grid;
+	border-radius: 10px;
+	width: 60%;
+	height: 500px;
+
+
+
+}
+
+ #HebergementMarseille h2
+ {
+ 	
+ 	font-size: 1em;
+ }
+
+#HousingMarseille .PhotoHebergement
+{
+    object-fit: cover;
+    width: 220px;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid white;
+
+}
+
+#HebergementMarseille .NameHebergement
+{
+	font-weight: bold;
+
+} 	
+
+#HebergementMarseille a
+{
+	text-decoration: none; 
+	color: black;	
+}
+
+#HebergementMarseille .afficher
+{
+	font-weight: bold;
+}
+
+				/****************** AUBERGE CANNEBIERE **********************/
+
+#HousingMarseille .AubergeCannebiere
+{
+	
+font-size: small;
+	 grid-column: 1 ;
+  grid-row: 1;
+  border:solid 1px white;
+  border-radius: 10px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  background-color: white;
+
+
+}
+
+#HousingMarseille .AubergeCannebiere .notation i:nth-child(1)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergeCannebiere .notation i:nth-child(2)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergeCannebiere .notation i:nth-child(3)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergeCannebiere .notation i:nth-child(4)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergeCannebiere .notation i:nth-child(5)
+{
+	color: grey;	
+}
+
+
+		/****************** FIN AUBERGE CANNEBIERE **********************/
+	
+
+		/****************** HOTEL PORT **********************/
+
+#HousingMarseille .HotelPort
+{
+	
+	font-size: small;
+	 grid-column: 2 ;
+ 	 grid-row: 1;
+   border:solid 1px white;
+  border-radius: 10px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  background-color: white;
+
+}
+
+#HousingMarseille .HotelPort .notation i:nth-child(1)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelPort .notation i:nth-child(2)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelPort .notation i:nth-child(3)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelPort .notation i:nth-child(4)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelPort .notation i:nth-child(5)
+{
+	color: #0065FC;	
+}
+
+
+		/****************** FIN HOTEL PORT **********************/
+
+		/******************  HOTEL MOUETTE **********************/
+
+#HousingMarseille .HotelMouette
+{
+	
+font-size: small;
+	 grid-column: 3 ;
+  grid-row: 1;
+ border:solid 1px white;
+  border-radius: 10px;
+  text-align: justify;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+
+#HousingMarseille .HotelMouette .notation i:nth-child(1)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelMouette .notation i:nth-child(2)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelMouette .notation i:nth-child(3)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelMouette .notation i:nth-child(4)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelMouette .notation i:nth-child(5)
+{
+	color: grey;	
+}
+
+
+		/****************** FIN HOTEL MOUETTE **********************/
+
+		/******************  HOTEL MER **********************/
+
+
+#HousingMarseille .HotelMer
+{
+	
+font-size: small;	 
+grid-column: 1 ;
+  grid-row: 2;
+ border:solid 1px white;
+  border-radius: 10px;
+  text-align: justify;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+
+#HousingMarseille .HotelMer .notation i:nth-child(1)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelMer .notation i:nth-child(2)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelMer .notation i:nth-child(3)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelMer .notation i:nth-child(4)
+{
+	color: grey;	
+}
+#HousingMarseille .HotelMer .notation i:nth-child(5)
+{
+	color: grey;	
+}
+		/****************** FIN HOTEL MER **********************/
+
+				/****************** AUBERGE PANIER **********************/
+
+#HousingMarseille .AubergePanier
+{
+	font-size: small;
+	 grid-column: 2 ;
+  grid-row: 2;
+ border:solid 1px white;
+  border-radius: 10px;
+  text-align: justify;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+#HousingMarseille .AubergePanier .notation i:nth-child(1)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergePanier .notation i:nth-child(2)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergePanier .notation i:nth-child(3)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergePanier .notation i:nth-child(4)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .AubergePanier .notation i:nth-child(5)
+{
+	color: grey;	
+}
+
+		/****************** FIN AUBERGE PANIER **********************/
+
+		/****************** HOTEL AMINA **********************/
+
+#HousingMarseille .HotelAmina
+{
+	font-size: small;
+  	grid-column: 3 ;
+ 	 grid-row: 2;
+ border:solid 1px white;
+  border-radius: 10px;
+  text-align: justify;
+  margin-right: auto;
+ margin-bottom: 40px;
+  background-color: white;
+}
+
+
+#HousingMarseille .HotelAmina .notation i:nth-child(1)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelAmina .notation i:nth-child(2)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelAmina .notation i:nth-child(3)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelAmina .notation i:nth-child(4)
+{
+	color: #0065FC;	
+}
+#HousingMarseille .HotelAmina .notation i:nth-child(5)
+{
+	color: #0065FC;	
+}
+
+		/****************** FIN HOTEL AMINA **********************/
+
+
+		/*************************POPULAIRE********************************/
+
+#popular
+{
+	background-color: #F2F2F2 ;	
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 30px;
+	border-radius: 10px;
+	display: flex;
+	width: 30%;
+	height: 580px;
+	display: grid;
+
+}
+
+#popular h2
+{
+	font-size: 1em;
+}
+
+.PhotoPopular
+
+{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.mapPopular
+{
+	float: right;
+	margin-left: 10px;
+}
+
+#popular .HotelSoleil
+{
+	font-size: small;
+ 	border:solid 1px white;
+ 	border-radius: 10px;
+  	text-align: justify;
+  	margin-right: 20PX;
+  	margin-bottom: 10px;
+ 	background-color: white;
+}
+
+
+#popular .NameHebergement
+{
+	font-weight: bold;
+}
+
+#popular .ChambreHote
+{
+	font-size: small;
+ 	border:solid 1px white;
+ 	border-radius: 10px;
+  	text-align: justify;
+  	margin-right: auto;
+  	margin-bottom: 40px;
+ 	background-color: white;
+}
+
+#popular .HotelBleuBlanc
+{
+	font-size: small;
+ 	border:solid 1px white;
+ 	border-radius: 10px;
+  	text-align: justify;
+  	margin-right: auto;
+  	margin-bottom: 40px;
+ 	background-color: white;
+}
+
+
+		/************************* FIN POPULAR ******** A FINIR ***********************/
+
+
+
+		/************************************* DEBUT ACTIVITES********************************************/
+
+
+#activity
+{
+	background-color: red;
+	width: 1340px;
+	height: 500px;
+	margin-top: 50px;
+
+
+}
+
+#activity .PhotoActivity
+{
+	object-fit: cover;
+    width: 220px;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid white;
+     
+ 
+
+}
+
+#activity .mapActivity
+{
+flex-wrap: wrap;
+}
+
+
+		/************************************* FIN ACTIVITES********************************************/
