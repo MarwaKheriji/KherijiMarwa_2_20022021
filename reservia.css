@@ -239,6 +239,15 @@ padding:10px;
 
 		/*HEBERGEMENT MARSEILLE*/
 
+.star_blue
+{
+	color: #0065FC;	
+}
+
+.star_grey
+{
+	color: grey;
+}
 
 
 #HebergementMarseille
@@ -317,26 +326,7 @@ font-size: small;
 
 }
 
-#HousingMarseille .AubergeCannebiere .notation i:nth-child(1)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergeCannebiere .notation i:nth-child(2)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergeCannebiere .notation i:nth-child(3)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergeCannebiere .notation i:nth-child(4)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergeCannebiere .notation i:nth-child(5)
-{
-	color: grey;	
-}
+
 
 
 		/****************** FIN AUBERGE CANNEBIERE **********************/
@@ -359,26 +349,7 @@ font-size: small;
 
 }
 
-#HousingMarseille .HotelPort .notation i:nth-child(1)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelPort .notation i:nth-child(2)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelPort .notation i:nth-child(3)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelPort .notation i:nth-child(4)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelPort .notation i:nth-child(5)
-{
-	color: #0065FC;	
-}
+
 
 
 		/****************** FIN HOTEL PORT **********************/
@@ -400,26 +371,6 @@ font-size: small;
 }
 
 
-#HousingMarseille .HotelMouette .notation i:nth-child(1)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelMouette .notation i:nth-child(2)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelMouette .notation i:nth-child(3)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelMouette .notation i:nth-child(4)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelMouette .notation i:nth-child(5)
-{
-	color: grey;	
-}
 
 
 		/****************** FIN HOTEL MOUETTE **********************/
@@ -442,26 +393,7 @@ grid-column: 1 ;
 }
 
 
-#HousingMarseille .HotelMer .notation i:nth-child(1)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelMer .notation i:nth-child(2)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelMer .notation i:nth-child(3)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelMer .notation i:nth-child(4)
-{
-	color: grey;	
-}
-#HousingMarseille .HotelMer .notation i:nth-child(5)
-{
-	color: grey;	
-}
+
 		/****************** FIN HOTEL MER **********************/
 
 				/****************** AUBERGE PANIER **********************/
@@ -479,26 +411,7 @@ grid-column: 1 ;
   background-color: white;
 }
 
-#HousingMarseille .AubergePanier .notation i:nth-child(1)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergePanier .notation i:nth-child(2)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergePanier .notation i:nth-child(3)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergePanier .notation i:nth-child(4)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .AubergePanier .notation i:nth-child(5)
-{
-	color: grey;	
-}
+
 
 		/****************** FIN AUBERGE PANIER **********************/
 
@@ -518,26 +431,6 @@ grid-column: 1 ;
 }
 
 
-#HousingMarseille .HotelAmina .notation i:nth-child(1)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelAmina .notation i:nth-child(2)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelAmina .notation i:nth-child(3)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelAmina .notation i:nth-child(4)
-{
-	color: #0065FC;	
-}
-#HousingMarseille .HotelAmina .notation i:nth-child(5)
-{
-	color: #0065FC;	
-}
 
 		/****************** FIN HOTEL AMINA **********************/
 
