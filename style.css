@@ -263,17 +263,28 @@ padding:10px;
 	float: left;
 }
 
-#HousingMarseille
+#HousingMarseille 
 {
-	display: grid;
-	border-radius: 10px;
-	width: 60%;
-	height: 500px;
-
-
+	height: 300px;
 
 }
 
+.CardHebergement
+{
+	border-radius: 10px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 200px;
+}
+
+.description
+{
+	display: flex;
+	flex-direction: column;
+}
  #HebergementMarseille h2
  {
  	
@@ -310,6 +321,7 @@ padding:10px;
 
 				/****************** AUBERGE CANNEBIERE **********************/
 
+/*
 #HousingMarseille .AubergeCannebiere
 {
 	
@@ -334,6 +346,7 @@ font-size: small;
 
 		/****************** HOTEL PORT **********************/
 
+/*
 #HousingMarseille .HotelPort
 {
 	
@@ -349,13 +362,14 @@ font-size: small;
 
 }
 
-
+*/
 
 
 		/****************** FIN HOTEL PORT **********************/
 
 		/******************  HOTEL MOUETTE **********************/
 
+/*
 #HousingMarseille .HotelMouette
 {
 	
@@ -377,7 +391,7 @@ font-size: small;
 
 		/******************  HOTEL MER **********************/
 
-
+/*
 #HousingMarseille .HotelMer
 {
 	
@@ -398,6 +412,7 @@ grid-column: 1 ;
 
 				/****************** AUBERGE PANIER **********************/
 
+/*
 #HousingMarseille .AubergePanier
 {
 	font-size: small;
@@ -417,6 +432,7 @@ grid-column: 1 ;
 
 		/****************** HOTEL AMINA **********************/
 
+/*
 #HousingMarseille .HotelAmina
 {
 	font-size: small;
@@ -447,7 +463,8 @@ grid-column: 1 ;
 	display: flex;
 	width: 30%;
 	height: 580px;
-	display: grid;
+	flex-direction: column;
+	justify-content: space-between;
 
 }
 
