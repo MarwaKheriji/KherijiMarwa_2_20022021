@@ -265,25 +265,32 @@ padding:10px;
 
 #HousingMarseille 
 {
-	height: 300px;
+	
 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right:  20px;
+	margin-bottom: 20px;
 }
 
 .CardHebergement
 {
+	margin-bottom: 30px;
 	border-radius: 10px;
+	border: 1px solid white;
 	background-color: white;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-content: flex-start;
-	width: 200px;
+	height: 210px;
+	width: 240px;
 }
 
 .description
 {
-	display: flex;
-	flex-direction: column;
+	width:240px ;
+	height:90px ;
+	font-size: smaller;
+	margin-left:  5px;
 }
  #HebergementMarseille h2
  {
@@ -294,17 +301,17 @@ padding:10px;
 #HousingMarseille .PhotoHebergement
 {
     object-fit: cover;
-    width: 220px;
+    width: 240px;
     height: 110px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 3px solid white;
+ 
 
 }
 
 #HebergementMarseille .NameHebergement
 {
-	font-weight: bold;
+	font-weight: bolder;
 
 } 	
 
@@ -319,140 +326,55 @@ padding:10px;
 	font-weight: bold;
 }
 
-				/****************** AUBERGE CANNEBIERE **********************/
 
-/*
-#HousingMarseille .AubergeCannebiere
+		/*************************POPULAIRE*******17-03-2021** A FINIR***********************/
+
+#popular
 {
-	
-font-size: small;
-	 grid-column: 1 ;
-  grid-row: 1;
-  border:solid 1px white;
-  border-radius: 10px;
-  text-align: justify;
-  margin-right: 30px;
-  margin-bottom: 40px;
-  background-color: white;
-
+	background-color: #F2F2F2 ;	
+	border-radius: 10px;
+	display: flex;
+	height: 580px;
+	width: 30%;
+	padding: 30px;
 
 }
 
-
-
-
-		/****************** FIN AUBERGE CANNEBIERE **********************/
-	
-
-		/****************** HOTEL PORT **********************/
-
-/*
-#HousingMarseille .HotelPort
+#HousingPopulaire
 {
-	
-	font-size: small;
-	 grid-column: 2 ;
- 	 grid-row: 1;
-   border:solid 1px white;
-  border-radius: 10px;
-  text-align: justify;
-  margin-right: 30px;
-  margin-bottom: 40px;
-  background-color: white;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	float: left;
 
 }
 
-*/
-
-
-		/****************** FIN HOTEL PORT **********************/
-
-		/******************  HOTEL MOUETTE **********************/
-
-/*
-#HousingMarseille .HotelMouette
+.CardPopular
 {
-	
-font-size: small;
-	 grid-column: 3 ;
-  grid-row: 1;
- border:solid 1px white;
-  border-radius: 10px;
-  text-align: justify;
-  margin-right: auto;
-  margin-bottom: 40px;
-  background-color: white;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 1px solid white;
+	background-color: white;
+	height: 130px;
+	width: 330px;
+
 }
-
-
-
-
-		/****************** FIN HOTEL MOUETTE **********************/
-
-		/******************  HOTEL MER **********************/
-
-/*
-#HousingMarseille .HotelMer
+.PhotoPopular
 {
-	
-font-size: small;	 
-grid-column: 1 ;
-  grid-row: 2;
- border:solid 1px white;
-  border-radius: 10px;
-  text-align: justify;
-  margin-right: auto;
-  margin-bottom: 40px;
-  background-color: white;
+    object-fit: cover;
+    width: 130px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
-
-
-
-		/****************** FIN HOTEL MER **********************/
-
-				/****************** AUBERGE PANIER **********************/
-
-/*
-#HousingMarseille .AubergePanier
+#TitrePopulaire
 {
-	font-size: small;
-	 grid-column: 2 ;
-  grid-row: 2;
- border:solid 1px white;
-  border-radius: 10px;
-  text-align: justify;
-  margin-right: auto;
-  margin-bottom: 40px;
-  background-color: white;
+	display: flex;
+	flex-direction: column;
 }
-
-
-
-		/****************** FIN AUBERGE PANIER **********************/
-
-		/****************** HOTEL AMINA **********************/
-
 /*
-#HousingMarseille .HotelAmina
-{
-	font-size: small;
-  	grid-column: 3 ;
- 	 grid-row: 2;
- border:solid 1px white;
-  border-radius: 10px;
-  text-align: justify;
-  margin-right: auto;
- margin-bottom: 40px;
-  background-color: white;
-}
-
-
-
-		/****************** FIN HOTEL AMINA **********************/
-
-
-		/*************************POPULAIRE********************************/
-
 #popular
 {
 	background-color: #F2F2F2 ;	
@@ -473,16 +395,8 @@ grid-column: 1 ;
 	font-size: 1em;
 }
 
-.PhotoPopular
 
-{
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
 
-}
 
 .mapPopular
 {
@@ -505,7 +419,7 @@ grid-column: 1 ;
   	margin-bottom: 40px;
  	background-color: white;
 }
-
+*/
 
 		/************************* FIN POPULAR ******** A FINIR ***********************/
 
