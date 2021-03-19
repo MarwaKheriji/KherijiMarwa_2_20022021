@@ -50,25 +50,32 @@ justify-content: space-between;
 }
 .menu-header
 {
-	list-style-type: none;
 	display: flex;
 	justify-content: flex-end;
 	justify-content: space-between;
-}
-nav
-{
 	width: 40%;
 }
-.activites
+
+#navHebergementActivity
 {
-	color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-nav a
-{
-
+#navHebergementActivity a
+{	
 	text-decoration: none; 
-	color: #0065FC;
+	color: #0065FC;		
+}
+
+#navHebergementActivity li
+{
+	list-style-type: none;
+}
+#navHebergementActivity .activites
+{
+	color: black;
 }
 
 .hebergement
@@ -77,11 +84,16 @@ nav a
 	border-top-color: #0065FC;
 	padding-top: 10px;
 }
+#suscribe li
+{
+		list-style-type: none;
+}
 
-.inscrire
+#suscribe a 
 {
 	font-weight: bold;
-	
+	text-decoration: none; 
+	color: #0065FC;
 }
 
 
