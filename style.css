@@ -230,8 +230,19 @@ padding:10px;
   color: #0065FC;
 }
 	/*FIN INFO*/
+.Titre
+{
+	font-size: 1em;
+}
 
-		/*HEBERGEMENT MARSEILLE*/
+#HebergementPopulaire
+{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+		
 
 .starBlue
 {
@@ -243,6 +254,7 @@ padding:10px;
 	color: grey;
 }
 
+				/*HEBERGEMENT MARSEILLE*/
 
 #HebergementMarseille
 {
@@ -286,12 +298,7 @@ padding:10px;
 	font-size: smaller;
 	margin-left:  5px;
 }
- #HebergementMarseille h2
- {
- 	
- 	font-size: 1em;
- }
-
+ 
 #HousingMarseille .PhotoHebergement
 {
     object-fit: cover;
@@ -351,6 +358,8 @@ padding:10px;
 	background-color: white;
 	height: 130px;
 	width: 400px;
+	display: flex;
+	justify-content: flex-start;
 
 
 }
@@ -363,21 +372,17 @@ padding:10px;
     border-bottom-left-radius: 10px;
 
 }
-#TitrePopulaire
-{
-	
-	font-size: 0.8em;
-}
+
 #TitrePopulaire .fas
 {
 	float: right;
 }
+
 .mapPopular
 {
-	float: right;
-	margin-right: 50px;
-	font-size: 0.9em;
 
+	margin-left: 30px;
+	font-size: 0.9em;
 }
 
 #popular .NameHebergement
@@ -395,11 +400,11 @@ padding:10px;
 
 #activity
 {
-	background-color: red;
-	width: 1340px;
+
+	/*width: 1340px;
 	height: 440px;
-	margin-top: 50px;
-	display: inline-flex;
+	margin-top: 50px;*/
+
 
 
 }
@@ -433,12 +438,14 @@ padding:10px;
 	width: 220px;
 	height: 150px;
 }
-#mapActivity
+/*#mapActivity
 {
 	display: flex;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-direction: row;	
 	justify-content: space-between;	
-}
+}*/
 .mapActivity
 {
 	
@@ -448,5 +455,10 @@ padding:10px;
     border-top-right-radius: 10px;
 }
 
+
+.activitePhoto
+{
+	display: flex;
+}
 
 		/**************************** FIN ACTIVITES***A REVOIR LES EMPLACEMENTS DES MAP**********18-03-2021*******************/
