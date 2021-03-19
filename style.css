@@ -56,40 +56,43 @@ justify-content: space-between;
 	width: 40%;
 }
 
-#navHebergementActivity
+.navHebergementActivity
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 }
 
-#navHebergementActivity a
+.navHebergementActivity a
 {	
 	text-decoration: none; 
 	color: #0065FC;		
 }
 
-#navHebergementActivity li
+.navHebergementActivity a:hover
+{
+	color: red;
+}
+
+.navHebergementActivity li
 {
 	list-style-type: none;
 }
-#navHebergementActivity .activites
+.navHebergementActivity .activites
 {
+	padding-left: 130px;
 	color: black;
 }
 
-.hebergement
+.hebergement:hover
 {
 	border-top: solid;
 	border-top-color: #0065FC;
-	padding-top: 10px;
-}
-#suscribe li
-{
-		list-style-type: none;
+	
 }
 
-#suscribe a 
+#suscribe a
 {
 	font-weight: bold;
 	text-decoration: none; 
