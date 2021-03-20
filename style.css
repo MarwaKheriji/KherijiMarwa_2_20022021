@@ -52,6 +52,7 @@ justify-content: space-between;
 nav
 {
 	height: 100%;
+	width: 60%;
 	display: flex;
 }
 .menu-header
@@ -68,7 +69,9 @@ nav
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 	margin:0;
+	width: 100%;
 }
 
 .navHebergementActivity a
@@ -84,20 +87,20 @@ nav
 
 .navHebergementActivity li
 {
-		list-style-type: none;
+	list-style-type: none;
 }
  li:hover
 {
-	padding-top: 40px;
-		border-top: solid;
+	
+	border-top: solid;
 	border-top-color: #0065FC;
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 
 }
 .activites
 {
-
 	color: black;
 }
 #suscribe a
