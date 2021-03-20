@@ -1,4 +1,4 @@
-					/****** 19-03-2021 ** KM ** ** A REVOIR HEADER*** PARTIE ACTIVITES ******/
+					/****** 20-03-2021 ** KM ** ** A REVOIR FILTRE*** PARTIE ACTIVITES ******/
 
 #MonSite
 {
@@ -199,13 +199,17 @@ li a:hover
   	border:1px solid #F2F2F2 ; 
  	color: #0065FC;
 }
-
+.filtre-icones
+{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
 #filtre .icone
 {
 	border-radius: 50px;
 	border:2px solid #F2F2F2 ;
     font-weight:bold;
-    /*margin-right: 30px;*/
     display: flex;
     align-items: center;
     
