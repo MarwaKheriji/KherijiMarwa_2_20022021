@@ -69,8 +69,6 @@ nav
 	flex-direction: row;
 	justify-content: space-between;
 	margin:0;
-
-
 }
 
 .navHebergementActivity a
@@ -81,32 +79,27 @@ nav
 
 .navHebergementActivity a:hover
 {
-	color: red;
+	color: black;
 }
 
 .navHebergementActivity li
 {
-	list-style-type: none;
+		list-style-type: none;
 }
- .activites:hover
+ li:hover
 {
-	padding-left: 130px;
-	color: black;
 	padding-top: 40px;
 		border-top: solid;
 	border-top-color: #0065FC;
+	display: flex;
+	justify-content: space-between;
 
 }
-
-.hebergement:hover
+.activites
 {
-	border-top: solid;
-	border-top-color: #0065FC;
-	padding-top: 40px;
 
-
+	color: black;
 }
-
 #suscribe a
 {
 	font-weight: bold;
