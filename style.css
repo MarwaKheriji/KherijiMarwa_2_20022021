@@ -88,14 +88,17 @@ nav
 {
 	list-style-type: none;
 }
-.navHebergementActivity .activites
+ .activites:hover
 {
 	padding-left: 130px;
 	color: black;
 	padding-top: 40px;
+		border-top: solid;
+	border-top-color: #0065FC;
+
 }
 
-.hebergement
+.hebergement:hover
 {
 	border-top: solid;
 	border-top-color: #0065FC;
