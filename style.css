@@ -1,4 +1,4 @@
-					/****** 20-03-2021 ** KM ** ** A REVOIR FILTRE*** PARTIE ACTIVITES ******/
+					/****** 23-03-2021 ** KM ** ***** A REVOIR PARTIE ACTIVITES ** FOOTER A FAIRE****/
 
 #MonSite
 {
@@ -408,7 +408,7 @@ justify-content: space-between;
 }
 
 
-		/************************* FIN POPULAR ******** A REVOIR 2ème Card ***16-03-2021********************/
+		/************************* FIN POPULAR *******************************/
 
 
 
@@ -455,24 +455,24 @@ justify-content: space-between;
 }
 .photo-pomegue
 {
-	height: 179px;
-	width: 305px;
+	height: 75%;
+	width: 100%;
 }
 .pomegue
 {
-	width: 305px;
-	height: 236px;
+	width: 100%;
+	height: 40%;
 }
 
 .frioul
 {
-	width: 160px;
-	height: 305px;
+	width: 100%;
+	height: 40%;
 }
 .photo-frioul
 {
-	width: 305px;
-	height: 107px;
+	width: 100%;
+	height: 70%;
 }
 #CardActivity
 {
@@ -495,9 +495,9 @@ justify-content: space-between;
 	justify-content: space-around;
 }
 
-		/**************************** FIN ACTIVITES***A REVOIR LES EMPLACEMENTS DES MAP**********18-03-2021*******************/
+		/**************************** FIN ACTIVITES***A REVOIR LES PHOTOS POMEGUE ET FRIOUL**********23-03-2021*******************/
 
 
 
 
-										/****** 19-03-2021 ** KM ** ** A REVOIR HEADER*** PARTIE ACTIVITES ******/
+										/****** 23-03-2021 ** KM ** ***** A REVOIR PARTIE ACTIVITES ** FOOTER A FAIRE****/
