@@ -434,8 +434,6 @@ justify-content: space-between;
 }
 .PhotoLarge
 {
-
- 
    border-top-left-radius:10px; 
    border-top-right-radius:10px;
    width: 290px;
@@ -455,12 +453,32 @@ justify-content: space-between;
     border-top-left-radius:10px; 
     border-top-right-radius:10px;
 }
+.photo-pomegue
+{
+	height: 179px;
+	width: 305px;
+}
+.pomegue
+{
+	width: 305px;
+	height: 236px;
+}
 
-
+.frioul
+{
+	width: 160px;
+	height: 305px;
+}
+.photo-frioul
+{
+	width: 305px;
+	height: 107px;
+}
 #CardActivity
 {
 	display: flex;
 }
+
 .mapActivity
 {
 	display: flex;
@@ -475,7 +493,6 @@ justify-content: space-between;
 	display: flex;
 	width: 50%;
 	justify-content: space-around;
-
 }
 
 		/**************************** FIN ACTIVITES***A REVOIR LES EMPLACEMENTS DES MAP**********18-03-2021*******************/
