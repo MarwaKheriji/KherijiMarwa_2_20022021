@@ -497,7 +497,49 @@ justify-content: space-between;
 
 		/**************************** FIN ACTIVITES***A REVOIR LES PHOTOS POMEGUE ET FRIOUL**********23-03-2021*******************/
 
+	/* DEBUT FOOTER */
+#Footer
+{	
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: grey;
+
+}
+
+#Footer nav
+{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-name
+{
+	width: 60%;
+	margin-left: 30px;
+	height: 50%;
+
+}
+.footer-name li
+{
+	list-style-type: none;
+}
+
+.footer-name a
+{
+	text-decoration: none;
+	color: black;
+
+}
+
+#Footer p
+{
+	font-weight: bold;
+}
 
 
 
-										/****** 23-03-2021 ** KM ** ***** A REVOIR PARTIE ACTIVITES ** FOOTER A FAIRE****/
+										
+										
+/****** 23-03-2021 ** KM ** ***** A REVOIR PARTIE ACTIVITES ** FOOTER A FAIRE****/
+
+	/* FIN FOOTER  */
