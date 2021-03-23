@@ -55,7 +55,7 @@ nav
 	width: 60%;
 	display: flex;
 }
-.menu-header
+#menu-header
 {
 	display: flex;
 	justify-content: flex-end;
@@ -84,7 +84,7 @@ nav
 {
 	list-style-type: none;
 }
- li:hover
+#menu-header li:hover
 {	
 	border-top: solid;
 	border-top-color: #0065FC;
@@ -93,7 +93,7 @@ nav
 	height: 100%;
 }
 
-li a:hover
+#menu-header li a:hover
 {
 	color: #0065FC;
 }
