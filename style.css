@@ -448,6 +448,7 @@ justify-content: space-between;
 	height: 99%;
 	justify-content: space-between;
 	border: 1px solid #F2F2F2;
+	background-color: transparent;
 }
 .PhotoSmall
 {
@@ -455,6 +456,7 @@ justify-content: space-between;
     height: 110px;
     border-top-left-radius:10px; 
     border-top-right-radius:10px;
+
 }
 .photo-pomegue
 {
@@ -467,6 +469,7 @@ justify-content: space-between;
 	height: 40%;
 	border: 1px solid white;
 	border-radius: 10px;
+	box-shadow: 0 0 1em grey; 
 }
 
 .frioul
@@ -475,6 +478,7 @@ justify-content: space-between;
 	height: 40%;
 	border: 1px solid white;
 	border-radius: 10px;
+		box-shadow: 0 0 1em grey; 
 }
 .photo-frioul
 {
@@ -486,12 +490,14 @@ justify-content: space-between;
  {
 	border: 1px solid white;
 	border-radius: 10px;
+		box-shadow: 0 0 1em grey; 
  }
 
  .Longchamp
  {
  	border: 1px solid white;
-	border-radius: 10px;	
+	border-radius: 10px;
+		box-shadow: 0 0 1em grey; 	
  }
 #CardActivity
 {
