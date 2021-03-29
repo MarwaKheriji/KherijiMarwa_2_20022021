@@ -567,13 +567,13 @@ justify-content: space-between;
 
 
 
-@media all and (max-device-width:415px)
+@media all and (max-device-width:375px)
 
 {
 
 	#MonSite
 	{
-		max-width: 415px;
+		max-width: 375px;
 		margin: 0 auto;
 	}
 	
