@@ -566,14 +566,14 @@ justify-content: space-between;
 	/***************************************** MOBILE **********************************************/
 
 
-/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 375px et 667px */
-@media all and (max-device-width:375px)
+
+@media all and (max-device-width:415px)
 
 {
 
 	#MonSite
 	{
-		max-width: 375px;
+		max-width: 415px;
 		margin: 0 auto;
 	}
 	
