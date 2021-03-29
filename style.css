@@ -1,5 +1,4 @@
-					/****** 23-03-2021 ** KM ** ***** A REVOIR PARTIE ACTIVITES ** FOOTER A FAIRE****/
-
+				
 #MonSite
 {
 	max-width: 1440px;
@@ -522,7 +521,7 @@ justify-content: space-between;
 	justify-content: space-around;
 }
 
-		/**************************** FIN ACTIVITES***A REVOIR LES PHOTOS POMEGUE ET FRIOUL**********23-03-2021*******************/
+		/**************************** FIN ACTIVITES**********************/
 
 	/* DEBUT FOOTER */
 #Footer
@@ -560,9 +559,63 @@ justify-content: space-between;
 }
 
 
-
-										
-										
-/****** 23-03-2021 ** KM ** ***** A REVOIR PARTIE ACTIVITES ** FOOTER A FAIRE****/
-
 	/* FIN FOOTER  */
+
+
+
+	/***************************************** MOBILE **********************************************/
+
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 375px et 667px */
+@media all and (max-device-width:375px)
+
+{
+
+	#MonSite
+	{
+		max-width: 375px;
+		margin: 0 auto;
+	}
+	
+
+	#HebergementMarseille
+	{
+		height: 1400px;
+		background-color: blue;
+		order: 2;
+		width: 100%;
+	}
+
+
+	#popular
+	{
+		height: 580px;
+		background-color: green;
+		width: 100%;
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
