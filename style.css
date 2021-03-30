@@ -115,6 +115,7 @@ nav
 {
 	align-items: center;
 	margin: 0;
+	order: 2;
 }
 
 
@@ -351,13 +352,13 @@ padding:10px;
 	text-decoration: none; 
 	color: black;
 }
-/*								-------------A REVOIR----------	
-#popular h2
+								/*-------------A REVOIR----------	
+#popular .fas
 {
 display: flex;
-justify-content: space-between;
-}								-------------A REVOIR----------	
-*/
+justify-content: space-around;
+}								/*-------------A REVOIR----------*/	
+
 #HousingPopulaire
 {
 
@@ -567,17 +568,27 @@ justify-content: space-between;
 
 
 
-@media all and (max-device-width:375px)
+@media only screen and (max-width: 450px)
 
 {
 
 	#MonSite
 	{
-		max-width: 375px;
+		
 		margin: 0 auto;
 	}
 	
+	#suscribe
+	{
+		order: 1;
+		
+	}
 
+    .navHebergementActivity
+    {
+    
+    }
+	
 	#HebergementMarseille
 	{
 		height: 1400px;
@@ -592,7 +603,7 @@ justify-content: space-between;
 		height: 580px;
 		background-color: green;
 		width: 100%;
-		
+	
 	}
 
 
