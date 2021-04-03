@@ -273,7 +273,7 @@ padding:10px;
 	border-radius: 10px;
 	width: 60%;
 	height: 580px;
-	float: left;
+	/*float: left;*/
 }
 
 #HousingMarseille 
@@ -337,7 +337,6 @@ padding:10px;
 {
 	background-color: #F2F2F2 ;	
 	border-radius: 10px;
-	float: right;
 	height: 580px;
 	width: 30%;
 	padding: 30px;
@@ -348,13 +347,19 @@ padding:10px;
 	text-decoration: none; 
 	color: black;
 }
-								/*-------------A REVOIR----------	
-#popular .fas
+									
+#titre-populaire
 {
-display: flex;
-justify-content: space-around;
-}								/*-------------A REVOIR----------*/	
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+							
+#titre-populaire i
+{
+	font-size: 1em; 
+}
 #HousingPopulaire
 {
 
@@ -385,11 +390,6 @@ justify-content: space-around;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
-}
-
-#TitrePopulaire .fas
-{
-	float: right;
 }
 
 .mapPopular
@@ -601,17 +601,24 @@ justify-content: space-around;
 {
 	#MonSite
 	{
-		
 		margin: 0 auto;
+
 	}
 	
+
+	#HebergementPopulaire
+	{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}
+
 	#HebergementMarseille
 	{
 		height: 1400px;
 		background-color: blue;
-		order: 2;
-		width: 100%;
 		
+		width: 100%;		
 	}
 
 	.CardHebergement
@@ -632,7 +639,7 @@ justify-content: space-around;
 	{
 		height: 580px;
 		background-color: green;
-		
+		width: 100%;
 	
 	}
 
