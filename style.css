@@ -1,8 +1,7 @@
-				
-#MonSite
+#bloc-page
 {
-	max-width: 1440px;
-	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /*  Police des textes*/
@@ -14,13 +13,13 @@
     src: 
          url('Raleway-Thin.ttf') format('truetype'),
         
-    font-style: normal;
-    font-weight: normal;
+    font-style:normal;
+    font-weight:normal;
 }
 
 @font-face
 {
-   font-family: 'RalewayBold';
+   font-family:'RalewayBold';
     src: 
          url('Raleway-Bold.ttf') format('truetype'),
         
@@ -31,39 +30,69 @@
 
 body
 {
-		font-family: Raleway;
-		margin: 0;
+	font-family: Raleway;
 }
 
 			/*HeaderNav*/
 header
 {
-display: flex;
-justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 10px 20px 10px 20px;
 }
+
+.reservia-logo img
+{
+	width: 100px;
+	height: 50px;
+}
+
 .reservia-logo
 {
-	width: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
 }
-.logo
+
+nav ul
 {
-	width: 100%
-}
-nav
-{
-	height: 100%;
-	width: 60%;
+	list-style-type: none;
 	display: flex;
 }
+
+nav li
+{
+	margin-right: 15px;
+}
+
+nav a
+{
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #0065FC;
+	border-top: 3px solid #0065FC;
+	padding-top: 27px;
+}
+
+.inscrire 
+{
+	font-weight: bold;
+	color: #0065FC;
+}
+/*
 #menu-header
 {
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: row;
 	justify-content: space-between;
-	width: 40%;
-	align-items: center;
+	margin-top: 20px;
 }
-
+*/
 .navHebergementActivity
 {
 	display: flex;
@@ -74,29 +103,6 @@ nav
 	width: 100%;
 }
 
-.navHebergementActivity a
-{	
-	text-decoration: none;
-	color: black;	 	
-}
-
-.navHebergementActivity li
-{
-	list-style-type: none;
-}
-#menu-header li:hover
-{	
-	border-top: solid;
-	border-top-color: #0065FC;
-	display: flex;
-	align-items: center;
-	height: 100%;
-}
-
-#menu-header li a:hover
-{
-	color: #0065FC;
-}
 .hebergement
 {
 	color: #0065FC;	
@@ -105,29 +111,18 @@ nav
 {
 	color: black;
 }
-#suscribe a
-{
-	font-weight: bold;
-	text-decoration: none; 
-	color: #0065FC;
-}
-#suscribe
-{
-	align-items: center;
-	margin: 0;
-	
-}
 
 
 
 			/* FIN HeaderNav*/
 
 			/*phrase*/
-
+/*
 #phrase
 {
 	height: 80px;
 }
+
 #phrase h2
 {
 	font-size: 1em;
@@ -137,6 +132,7 @@ nav
 {
 	font-size: 0.9em;
 }
+*/
 					/*FIN phrase*/	
 
 
@@ -186,6 +182,17 @@ nav
  	align-items: center;
  	height: 80px;
  	width: 100%
+}
+
+#filtre a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#filtre a:hover
+{
+	color: #0065FC;
 }
 
 #filtre p
@@ -241,7 +248,7 @@ padding:10px;
 {
 	font-size: 1em;
 }
-
+/*
 #HebergementPopulaire
 {
 	display: flex;
@@ -249,7 +256,7 @@ padding:10px;
 
 }
 
-		
+*/		
 
 .starBlue
 {
@@ -262,7 +269,7 @@ padding:10px;
 }
 
 				/*HEBERGEMENT MARSEILLE*/
-
+/*
 #HebergementMarseille
 {
 	background-color: #F2F2F2 ;	
@@ -273,9 +280,9 @@ padding:10px;
 	border-radius: 10px;
 	width: 60%;
 	height: 580px;
-	/*float: left;*/
+	
 }
-
+*/
 #HousingMarseille 
 {
 	
@@ -521,48 +528,90 @@ padding:10px;
 		/**************************** FIN ACTIVITES**********************/
 
 	/* DEBUT FOOTER */
-#Footer
-{	
+footer
+{
+	border: 1px solid #F2F2F2;
+	padding-top: 20px;
+	padding-bottom: 20px;	
 	display: flex;
-	flex-direction: row;
-	width: 100%;
 	background-color:#F2F2F2;
-
 }
 
-.footer-name
-{
-	width: 60%;
-	margin-left: 30px;
-	height: 50%;
-}
-.footer-name li
-{
-	list-style-type: none;
-	width: 100%;
-	margin-bottom: 10px;
-}
-
-.footer-name a
+footer a
 {
 	text-decoration: none;
 	color: black;
-
+	line-height: 1.5;
+	padding-left: 20px;
 }
 
-#Footer p
+footer li
 {
+	list-style: none;
+}
+h4{
 	font-weight: bold;
+	padding-left: 60px;
+	padding-bottom: 10px;
 }
 
+.apropos
+{
+	padding-right: 200px;
+}
 
+.noshebergements
+{
+	padding-right: 250px;
+}
 	/* FIN FOOTER  */
 
 
 	/**************************************DESKTOP****************************************************/
 
-@media only screen and (min-width: 1020px)
+@media all and (min-width: 1020px)
 {
+
+	#menu-header
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	}
+	#phrase
+	{
+	height: 80px;
+	}
+	#phrase h2
+	{
+	font-size: 1em;
+	}
+
+	#phrase p
+	{
+	font-size: 0.9em;
+	}
+
+	#HebergementPopulaire
+	{
+	display: flex;
+	flex-wrap: wrap;
+
+	}
+
+	#HebergementMarseille
+{
+	background-color: #F2F2F2 ;	
+	margin-left: 5px;
+	margin-right: 30px;	
+	padding: 30px;
+	padding-right: 0px;
+	border-radius: 10px;
+	width: 60%;
+	height: 580px;
+	
+}
 
 	#HousingMarseille .PhotoHebergement
 	{
@@ -583,10 +632,7 @@ padding:10px;
 	width: 240px;
 	}
 
-	#suscribe
-	{
-		order: 2;	
-	}
+	
 }
 
 
@@ -595,29 +641,39 @@ padding:10px;
 
 
 
-
-@media only screen and (max-width: 450px)
+@media all and (min-width:375px and max-width: 812px)
 
 {
-	#MonSite
-	{
-		margin: 0 auto;
 
-	}
-	
-
-	#HebergementPopulaire
+	#menu-header
 	{
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
+		justify-content: space-around;	
+	}
 
+	.inscrire
+	{
+		order: 2;
+	}
+
+	
+	.navHebergementActivity
+	{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	#phrase h2
+	{
+		font-size: 1em;
 	}
 
 	#HebergementMarseille
 	{
+		order: 2;
 		height: 1400px;
-		background-color: blue;
-		
+		background-color: blue;	
 		width: 100%;		
 	}
 
@@ -642,25 +698,6 @@ padding:10px;
 		width: 100%;
 	
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
