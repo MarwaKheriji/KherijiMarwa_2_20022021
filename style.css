@@ -566,8 +566,12 @@ h4 {
   #filtre {
     justify-content: space-around;
   }
+
+  #HebergementPopulaire {
+    flex-direction: column-reverse;
+  }
+
   #HebergementMarseille {
-    order: 2;
     height: 1400px;
     background-color: blue;
     width: 100%;
