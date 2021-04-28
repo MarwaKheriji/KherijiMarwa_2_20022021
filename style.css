@@ -3,22 +3,24 @@
   padding-right: 20px;
 }
 
-/*  Police des textes*/
+/*  Police des textes
 
 @font-face {
   font-family: "Raleway";
-  src: url("Raleway-Thin.ttf") format("truetype");
+  src: url("Raleway-Thin.ttf") format("truetype"),
+  font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "RalewayBold";
-  src: url("Raleway-Bold.ttf") format("truetype");
+  src: url("Raleway-Bold.ttf") format("truetype"),
+  font-style: normal;
   font-weight: normal;
-}
+} */
 
 body {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
 }
 
 /*HeaderNav*/
@@ -327,6 +329,7 @@ nav a:hover {
   display: flex;
   justify-content: flex-start;
 }
+
 .PhotoPopular {
   object-fit: cover;
   width: 130px;
@@ -573,23 +576,29 @@ h4 {
 
   #HebergementMarseille {
     height: 1400px;
-    background-color: blue;
+    background-color: white;
     width: 100%;
+    padding-top: 10px;
+    margin-top: 10px;
   }
 
   .CardHebergement {
-    height: 210px;
-    width: 100%;
+    height: 200px;
+    width: 300px;
   }
 
   #HousingMarseille .PhotoHebergement {
     width: 100%;
-    height: 110px;
+    height: 100px;
   }
 
   #popular {
     height: 580px;
-    background-color: green;
     width: 100%;
+    padding-top: 10px;
+  }
+
+  .CardPopular {
+    width: 300px;
   }
 }
