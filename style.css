@@ -357,13 +357,16 @@ nav a:hover {
   margin-top: 50px;
   padding-bottom: 50px;
 }
+
 #activity a {
   text-decoration: none;
   color: black;
 }
+
 #activity p {
   font-weight: bold;
 }
+
 #activity .PhotoActivity {
   object-fit: cover;
 }
@@ -373,6 +376,7 @@ nav a:hover {
   height: 400px;
   box-shadow: 0 0 1em grey;
 }
+
 .PhotoLarge {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -385,16 +389,19 @@ nav a:hover {
   height: 99%;
   justify-content: space-between;
 }
+
 .PhotoSmall {
   width: 220px;
   height: 110px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 .photo-pomegue {
   height: 75%;
   width: 100%;
 }
+
 .pomegue {
   width: 100%;
   height: 40%;
@@ -408,6 +415,7 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 0 0 1em grey;
 }
+
 .photo-frioul {
   width: 100%;
   height: 70%;
@@ -422,6 +430,7 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 0 0 1em grey;
 }
+
 #CardActivity {
   display: flex;
 }
@@ -600,5 +609,50 @@ h4 {
 
   .CardPopular {
     width: 300px;
+  }
+
+  #activity {
+    background-color: red;
+    padding-top: 10px;
+    height: 1500px;
+  }
+  #CardActivity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .activitePhoto {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .mapActivity {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .PhotoLarge {
+    height: 150px;
+    width: 300px;
+  }
+
+  .Large {
+    width: 300px;
+    height: 200px;
+  }
+
+  .PhotoSmall {
+    height: 150px;
+    width: 300px;
+  }
+
+  .Small {
+    width: 300px;
+    height: 200px;
+  }
+
+  footer {
+    flex-direction: column;
   }
 }
