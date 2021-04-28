@@ -610,6 +610,7 @@ h4 {
   .CardHebergement {
     height: 200px;
     width: 300px;
+    box-shadow: 0 0 1em grey;
   }
 
   #HousingMarseille .PhotoHebergement {
@@ -628,10 +629,12 @@ h4 {
   }
 
   #activity {
-    background-color: red;
+    background-color: white;
     padding-top: 10px;
+    padding-left: 10px;
     height: 1500px;
   }
+
   #CardActivity {
     display: flex;
     flex-direction: column;
