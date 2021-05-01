@@ -147,11 +147,13 @@ button {
 
 #filtre {
   display: flex;
-  text-align: center;
+  flex-direction: row;
   font-weight: bold;
+  margin-top: 10px;
+  /* text-align: center;
   align-items: center;
   height: 80px;
-  width: 100%;
+  width: 100%;*/
 }
 
 #filtre a {
@@ -167,7 +169,6 @@ button {
   margin-right: 30px;
 }
 #filtre .fas {
-  background-color: #deebff;
   padding: 10px;
   border-radius: 50%;
   border: 1px solid #f2f2f2;
@@ -183,7 +184,7 @@ button {
   border: 2px solid #f2f2f2;
   font-weight: bold;
   display: flex;
-  align-items: center;
+  /* align-items: center;*/
 }
 
 /*FIN FILTRE*/
@@ -299,7 +300,7 @@ button {
 #popular {
   background-color: #f2f2f2;
   border-radius: 10px;
-  height: 580px;
+  /*height: 580px;*/
   width: 30%;
   padding: 30px;
 }
@@ -579,20 +580,42 @@ h4 {
     font-size: 1em;
   }
 
+  #zoneRecherche {
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
   #zoneRecherche input:nth-child(3) {
     visibility: hidden;
   }
 
-  button {
+  button i {
     border-radius: 9px;
     background-color: #0065fc;
-    color: white;
+    color: #0065fc;
     font-size: 1em;
     visibility: visible;
   }
 
-  #filtre {
-    justify-content: space-around;
+  #filtre-icones {
+    /*display: flex;
+    flex-direction: column;
+    align-items: flex-start;*/
+    flex-wrap: wrap;
+    padding-right: 40px;
+  }
+
+  /*#filtre ul {
+    flex-wrap: wrap;
+  }
+
+  #filtre li {
+    margin-bottom: 10px;
+    list-style-type: none;
+  }*/
+
+  #titre-filtre {
+    margin-bottom: 20px;
   }
 
   #HebergementPopulaire {
@@ -631,24 +654,27 @@ h4 {
   #activity {
     background-color: white;
     padding-top: 10px;
-    padding-left: 10px;
-    height: 1500px;
+    padding-left: 20px;
+    height: 1400px;
   }
 
   #CardActivity {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .activitePhoto {
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .mapActivity {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .PhotoLarge {
@@ -659,6 +685,8 @@ h4 {
   .Large {
     width: 300px;
     height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .PhotoSmall {
@@ -669,9 +697,26 @@ h4 {
   .Small {
     width: 300px;
     height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
+  .pomegue {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .frioul {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .LaGarde {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
   footer {
     flex-direction: column;
+    padding-top: 50px;
   }
 }
