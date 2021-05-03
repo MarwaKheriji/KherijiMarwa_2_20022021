@@ -206,11 +206,6 @@ button {
   font-size: 1em;
 }
 
-#HebergementPopulaire {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .starBlue {
   color: #0065fc;
 }
@@ -291,16 +286,12 @@ button {
   width: 240px;
 }
 
-#HebergementPopulaire {
-  display: flex;
-  flex-wrap: wrap;
-}
 /*************************POPULAIRE********************************/
 
 #popular {
   background-color: #f2f2f2;
   border-radius: 10px;
-  /*height: 580px;*/
+  height: 580px;
   width: 30%;
   padding: 30px;
 }
@@ -491,6 +482,28 @@ h4 {
 /**************************************TABLETTE****************************************************/
 
 @media all and (min-width: 813px) and (max-width: 1024px) {
+  #HebergementMarseille {
+    width: 50%;
+  }
+  #HousingMarseille {
+    width: 70%;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+  }
+  .CardHebergement {
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    width: 100px;
+  }
+
+  .PhotoHebergement {
+  }
+  #HebergementPopulaire {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 /***************************************** MOBILE **********************************************/
@@ -655,68 +668,44 @@ h4 {
     background-color: white;
     padding-top: 10px;
     padding-left: 20px;
-    height: 1400px;
+    height: 1300px;
   }
 
   #CardActivity {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 20px;
   }
 
   .activitePhoto {
     flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-
-  .mapActivity {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    /* justify-content: space-between;*/
   }
 
   .PhotoLarge {
-    height: 150px;
+    height: 100px;
     width: 300px;
   }
 
   .Large {
     width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    height: 150px;
   }
 
   .PhotoSmall {
-    height: 150px;
+    height: 100px;
     width: 300px;
   }
 
   .Small {
     width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding-bottom: 30px;
+    height: 400px;
+    padding-top: 30px;
   }
 
-  .pomegue {
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-
-  .frioul {
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-
-  .LaGarde {
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
   footer {
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 100px;
   }
 }
