@@ -184,7 +184,8 @@ button {
   border: 2px solid #f2f2f2;
   font-weight: bold;
   display: flex;
-  /* align-items: center;*/
+  /*align-items: center;
+  padding: 15px;*/
 }
 
 /*FIN FILTRE*/
@@ -541,6 +542,13 @@ h4 {
 
   .Longchamp {
     margin-bottom: 40px;
+  }
+  .apropos {
+    padding: 0;
+  }
+
+  .noshebergements {
+    padding: 0;
   }
 }
 
