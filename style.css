@@ -483,26 +483,64 @@ h4 {
 
 @media all and (min-width: 813px) and (max-width: 1024px) {
   #HebergementMarseille {
-    width: 50%;
-  }
-  #HousingMarseille {
-    width: 70%;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 100%;
-  }
-  .CardHebergement {
-    height: 50px;
-    justify-content: space-between;
-    display: flex;
-    width: 100px;
+    width: 100%;
+    background-color: white;
   }
 
-  .PhotoHebergement {
-  }
   #HebergementPopulaire {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .CardHebergement {
+    box-shadow: 0 0 1em grey;
+  }
+
+  #popular {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .CardPopular {
+    width: 80%;
+  }
+
+  .PhotoPopular {
+    width: 250px;
+  }
+
+  #activity {
+    padding-left: 20px;
+  }
+  #CardActivity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Large {
+    margin-left: 300px;
+    margin-bottom: 20px;
+  }
+
+  .Small {
+    padding-left: 90px;
+    margin-left: 100px;
+  }
+
+  .pomegue {
+    margin-bottom: 40px;
+  }
+
+  .frioul {
+    margin-bottom: 40px;
+  }
+
+  .LaGarde {
+    margin-bottom: 40px;
+  }
+
+  .Longchamp {
+    margin-bottom: 40px;
   }
 }
 
