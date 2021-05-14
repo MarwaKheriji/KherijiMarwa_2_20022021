@@ -168,25 +168,27 @@ button {
 #filtre p {
   margin-right: 30px;
 }
+
 #filtre .fas {
   padding: 10px;
   border-radius: 50%;
   border: 1px solid #f2f2f2;
   color: #0065fc;
 }
-.filtre-icones {
+/*.filtre-icones {
   display: flex;
   justify-content: space-between;
   width: 50%;
-}
+}*/
+/*
 #filtre .icone {
   border-radius: 50px;
   border: 2px solid #f2f2f2;
   font-weight: bold;
   display: flex;
   /*align-items: center;
-  padding: 15px;*/
-}
+  padding: 15px;
+}*/
 
 /*FIN FILTRE*/
 
@@ -483,6 +485,18 @@ h4 {
 /**************************************TABLETTE****************************************************/
 
 @media all and (min-width: 813px) and (max-width: 1024px) {
+  #filtre {
+    flex-wrap: wrap;
+    padding-right: 80px;
+  }
+
+  #filtre-icones {
+    /*display: flex;
+    flex-direction: column;
+    align-items: flex-start;*/
+    flex-wrap: wrap;
+    padding-right: 40px;
+  }
   #HebergementMarseille {
     width: 100%;
     background-color: white;
@@ -656,6 +670,11 @@ h4 {
     visibility: visible;
   }
 
+  #filtre {
+    flex-wrap: wrap;
+    padding-right: 80px;
+  }
+
   #filtre-icones {
     /*display: flex;
     flex-direction: column;
@@ -674,7 +693,7 @@ h4 {
   }*/
 
   #titre-filtre {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   #HebergementPopulaire {
@@ -752,6 +771,14 @@ h4 {
 
   footer {
     flex-direction: column;
-    padding-top: 100px;
+    margin: 0px;
+  }
+
+  .apropos {
+    padding: 0;
+  }
+
+  .noshebergements {
+    padding: 0;
   }
 }
