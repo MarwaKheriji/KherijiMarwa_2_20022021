@@ -166,7 +166,7 @@ button {
 }
 
 #filtre p {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 #filtre .fas {
@@ -175,11 +175,14 @@ button {
   border: 1px solid #f2f2f2;
   color: #0065fc;
 }
-/*.filtre-icones {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-}*/
+
+#titre-filtre {
+  padding-top: 10px;
+  margin-right: 20px;
+}
+.filtre-icones {
+  margin-top: 15px;
+}
 /*
 #filtre .icone {
   border-radius: 50px;
