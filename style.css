@@ -171,7 +171,7 @@ button {
 
 #filtre .fas {
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 20px;
   border: 1px solid #f2f2f2;
   color: #0065fc;
 }
@@ -922,9 +922,9 @@ h4 {
     width: 50%;
     justify-content: space-around;
   }*/
-  #activites {
+  /*#activites {
     margin-top: 140px;
-  }
+  }*/
   .apropos {
     padding: 0;
   }
