@@ -1026,7 +1026,7 @@ h4 {
   }
 
   #zoneRecherche input:nth-child(3) {
-    visibility: hidden;
+    display: none;
   }
 
   button i {
@@ -1097,6 +1097,7 @@ h4 {
   }
 
   .CardPopular {
+    margin: auto;
     width: 300px;
   }
   /*
