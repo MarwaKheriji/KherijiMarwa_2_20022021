@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 15px;
+  margin-right: 60px;
 }
 
 nav a {
@@ -72,6 +72,7 @@ nav a:hover {
 .hebergement {
   color: #0065fc;
 }
+
 .activites {
   color: black;
 }
